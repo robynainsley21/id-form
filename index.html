@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+    <title>ID Form</title>
+</head>
+<body>
+    <form id="wrapper">
+        <p id="error"></p>
+        <div class="flex-column">
+            <input type="text" id="id-input" placeholder="input ID number">
+        </div>
+        <div class="flex-column">
+            <label for="birthDate">Date of Birth:</label>
+            <input type="text" id="birthDate" readonly>
+        </div>
+        <div class="flex-column">
+            <label for="gender">Gender:</label>
+            <input type="text" id="gender" readonly>
+        </div>
+        <input type="button" generate value="Generate">
+    </form>
+    <script src="script/script.js"></script>
+</body>
+</html>

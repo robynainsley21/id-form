@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex-column{
+    display: flex;
+    justify-content: space-between;
+}
+
+#id-input{
+    margin: 1rem auto;
+}
+
+input[type='text']{
+    width: 20rem;
+}
+
+.error{
+    color: red;
+}
