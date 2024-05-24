@@ -29,7 +29,7 @@ generateBtn.addEventListener('click', () => {
         let genderCheck = idValue.slice(7, 8)
         
         if(birthdayCheck && genderCheck){
-            let date = new Date(month, day, year)
+            let date = new Date(`${month}/${day}/${year}`)
             birthDate.value = date 
 
             if(genderCheck <= 5){
